@@ -1,6 +1,7 @@
 # Web streaming example
 # Source code from the official PiCamera package
 # http://picamera.readthedocs.io/en/latest/recipes2.html#web-streaming
+# https://www.hackster.io/gatoninja236/scan-qr-codes-in-real-time-with-raspberry-pi-a5268b
 
 import io
 import picamera
@@ -12,10 +13,10 @@ from http import server
 PAGE="""\
 <html>
 <head>
-<title>Guyana Vision - Home Surveillance Camera</title>
+<title>Forever Ware Return Bin QR Scanner</title>
 </head>
 <body>
-<center><h1>Guy Vision - Home Surveillance Camera</h1></center>
+<center><h1>Forever Ware Return Bin QR Scanner</h1></center>
 <center><img src="stream.mjpg" width="1080" height="720"></center>
 </body>
 </html>
